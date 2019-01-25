@@ -18,7 +18,7 @@
     
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 1rem 2rem rgba($color-black,.2);
+        box-shadow: $shadow2;
 
         &::after {
             transform: scaleX(1.4) scaleY(1.6);
@@ -30,7 +30,7 @@
     &:focus {
         outline: none;
         transform: translateY(-1px);
-        box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+        box-shadow: $shadow3;
     }
     
     &--white {
@@ -85,12 +85,12 @@
     &:hover {
         background-color: $color-primary;
         color: $color-white;
-        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        box-shadow: $shadow2;
         transform: translateY(-2px);
     }
 
     &:active {
-        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        box-shadow: $shadow2;
         transform: translateY(0);
     }
 
